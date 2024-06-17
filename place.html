@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ko">
+  
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>홈페이지</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Do+Hyeon&family=Gothic+A1:wght@800&family=Luckiest+Guy&family=Nanum+Gothic&display=swap" rel="stylesheet">
+  </head>
+
+
+
+  <body data-bs-spy="scroll" data-bs-target="#nav-menu">
+
+
+   <!-- 네비게이션 영역 시작 -->
+   <nav class="navbar bg-body-tertiary bg-white navbar-color fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Let's goncert</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="index.html">홈</a>
+            </li>
+
+
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="tour.html">투어 소개</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="artist.html">아티스트 소개</a>            
+           
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="place.html">장소</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="booking.html">예매</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="md.html">MD 상품</a>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- 네비게이션 영역 끝 -->
+
+
+
+
+
+
+
+
+ <!-- 장소 소개 섹션 시작 -->
+
+
+
+
+ <section class="container py-5" id="place">
+
+    <div class="container-sm py-5">
+        <h1 class="Do-font text-dark text-center mb-3">장소 소개</h1>
+        <p class="lead text-center text-dark pb-5">&TEAM의 첫번째 서울 콘서트<br>2024년 2월 17일 ~ 2024년 2월 18일</p>
+    </div>
+  
+  
+  
+  
+    <div class="row justify-content-center align-items-center mb-5">
+  
+  
+      
+        <div class="col-md-7 col-lg-5 px-lg-5">
+          <h1 class="place an-font display-2 text-dark py-5">KBS ARENA</h1>
+          <div class="col-md-5">
+  
+          <h5 class="ps-1">02.17(토) 6PM(KST)</h5>
+          <h5 class="ps-1 ">02.18(일) 1PM(KST)</h5>
+          <h5 class="ps-1 pb-4 ">02.18(일) 6PM(KST)</h5>
+    
+          <div class="py-3">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark btn-lg px-5" data-bs-toggle="modal"
+                data-bs-target="#newsModal">
+                교통 안내
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-m">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <h1 class="na-font modal-title text-center fs-5" id="newsModalTitle">교통 안내</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="닫기"></button>
+                        </div>
+                        <div class="modal-body">
+                          
+                          <p class="text-align">
+                            - 공연 당일 공연장 주변의 교통혼잡이 예상되어 대중교통 이용을 &nbsp;권장드리며, 공연장에 여유 있게 도착하시기를 당부드립니다. 
+                            <br>&nbsp;도로 상황 및 주차 문제로 인한 입장 지연 등을 이유로 
+                            <br>&nbsp;당일 환불은 불가하며, 이에 대해 주최,주관사,예매처는 
+                            <br>&nbsp;일절 책임이 없습니다.
+                          </p>
+                          <hr>
+                          <p class="text-left">위치</p>
+                          <p class="text-muted">서울특별시 강서구 공항대로 376(화곡동) KBS아레나</p>
+                          <hr>
+                          <p class="text-center">대중교통 이용 시</p>
+                          <p class="text-left">지하철
+                           <p class="text-muted">- 5호선 발산역 5번 출구(도보 약 15분)
+                            <br>- 9호선 가양역 8번 출구(도보 약 15분)</p>
+                          <p class="text-left">버스
+                           <p class="text-muted">KBS스포츠월드 하차(도보 약 5분)
+                            <br>- 일반버스 : 60,60-3,88
+                            <br>- 간성버스 : 601,605,654,661,N26
+                            <br>- 직행버스 : 8000
+                            <br>- 공항버스 : 6000,6003,6008</p>
+                        
+                        
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal 끝 -->
+        </div>
+  
+  
+          <div class="box-btn">
+          <a href="https://map.naver.com/p/directions/-/14120658.742251,4517029.2665713,KBS%EC%95%84%EB%A0%88%EB%82%98,37549946,PLACE_POI/-/walk?c=15.00,0,0,0,dh" target="_blank" class="btn btn-dark btn-lg px-1"><br>네이버 지도 길찾기<br><br></a>
+          </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-md-7">
+          <img src="kbsareanmap.png" alt="아레나 지도" class="img-fluid">
+      </div>
+      
+    </div>
+  
+  
+  </section>
+  <!-- 장소 소개 섹션 끝 -->
+  
+
+
+
+
+
+<!-- 풋터 시작 -->
+<footer class="bg-dark text-white">
+  <div class="container text-center">
+      <p class="py-4 mb-0">
+        <a href="https://www.andteam-official.jp/" target="_blank"
+        class="gugi-font link-danger text-decoration-none">&TEAM</a> <i class="bi bi-arrow-through-heart"></i> LUNE <i class="bi bi-info-circle"></i> 2024 Designed by 2024110729 신솔후</p>
+  </div>
+</footer>
+<!-- 풋터 끝 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+  crossorigin="anonymous"></script>
+</body>
+</html>

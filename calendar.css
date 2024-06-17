@@ -1,0 +1,24 @@
+  .Do-font
+    {
+        font-family: "Do Hyeon", sans-serif;    
+        font-weight: 800;
+    }
+
+
+
+.tbl_basic {border-collapse:collapse; background:#fff; width:100%; border-top:4px solid #666; border-bottom:4px solid #666 !important; border-left:1px solid #e0e0e0; text-indent:0; font-weight:normal; line-height:170%; }
+.tbl_basic>thead>tr>th,
+.tbl_basic>thead>tr>td { background:#efefef;padding:10px 20px;border-bottom:1px solid #e0e0e0;border-right:1px solid #e0e0e0;vertical-align:middle; }
+.tbl_basic>tbody>tr>th,
+.tbl_basic>tbody>tr>td {line-height:170%;padding:10px 20px; border-bottom:1px solid #e0e0e0;border-right:1px solid #e0e0e0;vertical-align:middle;}
+.tbl_basic>tbody>tr.href_view {cursor:pointer;}
+.tbl_basic>tbody>tr.href_view:hover {    background: #eee;}
+.tbl_basic>thead>tr>th,
+.tbl_basic>tbody>tr>th {color:#444; font-weight:500;font-size:18px;text-align:center;}   <!-- 첫번째 세로 줄  -->
+.tbl_basic>tbody>tr>td.center{text-align:center;}
+.tbl_basic>tbody>tr>td strong {font-weight:500}
+.tbl_basic>tbody>tr>td a { font-size: 50px; text-decoration:underline;font-weight:100}
+
+.tbl_basic>tbody>tr>td .circle{display:block; width:4rem; height:4rem; text-align:center; background: url(/kor/img/main/icon_goarr.png) no-repeat center center; border-radius:50%; margin:5px auto; background-size:40%; background-color: #ffffff;}
+.tbl_basic>tbody>tr>td:hover .circle{background-color:#cec9c9;}
+
